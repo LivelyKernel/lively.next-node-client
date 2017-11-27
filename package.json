@@ -1,6 +1,6 @@
 {
   "name": "lively.next-node-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "For connecting an aribitrary node.js project to lively.next.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "lively-system-interface": "^0.2.1",
     "lively.2lively": "^0.1.1",
-    "lively.modules": "^0.8.30",
+    "lively.modules": "^0.8.31",
     "socket.io-client": "^2.0.4",
     "systemjs": "^0.19.47"
   }
