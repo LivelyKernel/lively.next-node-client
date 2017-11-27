@@ -1,6 +1,6 @@
 {
   "name": "lively.next-node-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "For connecting an aribitrary node.js project to lively.next.",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Robert Krahn",
   "license": "MIT",
   "dependencies": {
-    "lively-system-interface": "github:LivelyKernel/lively-system-interface",
-    "lively.2lively": "github:LivelyKernel/lively.2lively",
+    "lively-system-interface": "^0.2.1",
+    "lively.2lively": "^0.1.1",
     "lively.modules": "^0.8.29",
     "socket.io-client": "^2.0.4",
     "systemjs": "^0.19.47"
