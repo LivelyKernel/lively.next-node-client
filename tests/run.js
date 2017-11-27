@@ -1,5 +1,5 @@
 const lively = require("../index.js"),
-      {modules, system, vm, l2l} = lively;
+      {modules, system, vm, l2lConnect} = lively;
 
 var tests = [
   {
@@ -47,13 +47,7 @@ var tests = [
   {
     name: "l2l connect",
     async run() {
-      let url = `http://localhost:9011/lively-socket.io`;
-      let client = l2l.L2LClient.ensure({
-        url,
-        namespace: "l2l",
-        info: {type: "l2l from node repl"}
-      });
-      await client.whenRegistered(20 * 1000);
+      let client = await l2lConnect(`http://localhost:9011/lively-socket.io`, 500);
       console.log("[l2l] online");
     }
   }
