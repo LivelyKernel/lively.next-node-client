@@ -3,7 +3,7 @@ let modules = require("lively.modules");
 let vm = lively.vm;
 let {localInterface: system} = require("lively-system-interface/dist/lively-system-interface-only-local.js");
 global.io = require("socket.io-client");
-require("/Users/robert/Lively/lively-dev2/lively.2lively/dist/lively.2lively_client.js");
+require("lively.2lively/dist/lively.2lively_client.js");
 
 async function l2lConnect(url = `http://localhost:9011/lively-socket.io`, timeout = 20 * 1000) {
   let client = lively.l2l.L2LClient.ensure({

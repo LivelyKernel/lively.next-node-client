@@ -11,7 +11,7 @@
   "dependencies": {
     "lively-system-interface": "github:LivelyKernel/lively-system-interface",
     "lively.2lively": "github:LivelyKernel/lively.2lively",
-    "lively.modules": "^0.8.28",
+    "lively.modules": "^0.8.29",
     "socket.io-client": "^2.0.4",
     "systemjs": "^0.19.47"
   }
