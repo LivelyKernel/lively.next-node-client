@@ -3,6 +3,7 @@ const System = require("systemjs"),
       vm = lively.vm,
       {localInterface: system} = require("lively-system-interface/dist/lively-system-interface-only-local.js");
 
+global.babel = require("babel-core");
 global.io = require("socket.io-client");
 require("lively.2lively/dist/lively.2lively_client.js");
 
